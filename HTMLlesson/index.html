@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Blog</title>
+    <!--
+Special Notes
+-Head holds our meta data information that we don't see. This would include links, 
+viewports info, doc title, etc.
+*quick way for comments CMD +/-->
+<!-- import a font -->
+<link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+  
+    <!-- insert style tag need to use css syntax -->
+    <!-- <style> -->
+<!-- body{ -->
+    <!-- background-color: black; -->
+<!-- } -->
+    <!-- </style> -->
+    <!-- not best practice for adding css elements to head -->
+
+    <link rel="stylesheet" href="./styles.css" type="text/css">
+</head>
+<body>
+    <!-- holds all visual elements the user sees -->
+    <!-- divs are containers holding information -->
+<header>
+    <!-- The <header> element represets a container for introductory content or a -->
+        <!-- set of navigational links.  -->
+        <!-- alt + z=== word wrap -->
+
+       <h1>Music Blog</h1>
+
+       <nav>
+        <ul>  <!---emmet: ul>li*4-->
+            <li><span>Home</span></li>
+            <!-- li*3>a -->
+            <li><a href="#">Get Started</a></li>
+            <li><a href="#">Photos</a></li>
+            <li><a href="#">Forum</a></li>
+        </ul>
+       </nav>
+</header>
+
+<section>
+    <h2> Welcome! </h2>
+    <main>
+        <!-- 
+            -Specified the main content.
+            Can only be one.
+            cannot be a descendant (child) pf:
+            header
+            nav
+            article
+            aside
+            footer.
+         -->
+         <article>
+             <!-- the <article> tag specified independent, self-contained content -->
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit cupiditate velit eius nesciunt iure, veniam in. Sapiente labore repellendus eaque rerum dolores, obcaecati fugit quidem perspiciatis magni ea esse vel.
+                 Expedita assumenda commodi cupiditate laboriosam, ipsum alias maxime consequuntur atque ab, blanditiis autem reiciendis quas enim debitis dignissimos reprehenderit sit earum esse rerum delectus harum odit praesentium? Libero, quos saepe.
+                 Obcaecati alias temporibus aperiam officiis aliquam, maxime cumque nemo placeat voluptatum sapiente fugit voluptates, nobis eum quo totam fuga, quisquam soluta unde? Nesciunt, dicta? Quaerat, dolores eius! Totam, dolor cum.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam eligendi, amet maxime, delectus iusto aliquid non, corporis at debitis architecto earum atque consequatur? Illo sint quas recusandae ipsam, voluptates totam!</p>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat neque corrupti ut fuga quidem eius sapiente totam iusto, nostrum quam nam accusamus dignissimos animi quia cumque ea dolore, accusantium quo?</p>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem tempore nihil nam voluptatibus nobis mollitia deserunt blanditiis earum fuga, ad cupiditate fugiat porro vero provident repellendus nesciunt, incidunt aperiam quis!</p>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad voluptatibus ipsam omnis consequatur, suscipit officia sapiente minima est nostrum, perspiciatis quod. Totam cumque voluptatum beatae eaque sint excepturi eveniet ad.</p>
+                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus eos praesentium assumenda pariatur incidunt nam ratione veritatis aperiam in enim! Dignissimos quaerat accusantium fuga possimus odio. Error esse quos accusantium.
+                 Harum, in et deserunt suscipit hic expedita qui reiciendis. Et sit atque magnam facilis, reiciendis ipsum consequatur voluptates, praesentium maiores dolorem, doloremque quo sunt ex. Officia, itaque! Aliquid, nulla laborum!
+                 Aut, cum! Eaque impedit in dicta necessitatibus accusamus temporibus unde itaque numquam. Tempore et cupiditate distinctio optio sapiente tenetur ab sit exercitationem maiores ipsam consequuntur corporis repellat esse, deserunt ex.</p>
+         </article>
+
+         <aside>
+             <h2>Favorite Albums</h2>
+             <!-- a*3>img -->
+             <a href="./assets/BrokenBells_Amoeba.jpg"target="blank" src= "./assets/BrokenBells_Amoeba.jpg" alt="Broken Bells"></a>
+             <!-- CMD + D multiline section -->
+             <a href="./assets/inYourHonor.jpg"target="_blank"><img src="./assets/inYourHonor.jpg" alt="In Your Honor"></a>
+             <a href="./assets/PinkFloyd.jpg"target="blank"><img src="./assets/PinkFloyd.jpg" alt="Pink Floyd"></a>
+             <a href="./assets/TVotR_seeds.jpg"target="blank"><img src="./assets/TVotR_seeds.jpg" alt="TVotR Seeds"></a>
+         </aside>
+    </main>
+    
+</section>
+
+
+
+</body>
+</html>
